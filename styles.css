@@ -9,9 +9,9 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #232b4d 0%, #171923 100%);
     min-height: 100vh;
-    color: #333;
+    color: #f1f1f1;
 }
 
 /* Container */
@@ -19,23 +19,23 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(30, 41, 59, 0.95);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     margin: 10px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
     overflow: hidden;
 }
 
 /* Header Styles */
 .header {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    color: white;
+    background: linear-gradient(135deg, #232b4d 0%, #364173 100%);
+    color: #f1f1f1;
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -46,7 +46,7 @@ body {
 
 .logo i {
     font-size: 28px;
-    color: #fff;
+    color: #e5e5e5;
 }
 
 .logo h1 {
@@ -77,44 +77,44 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #3b4a70 0%, #415188 100%);
+    color: #fff;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 8px 25px rgba(59, 74, 112, 0.4);
 }
 
 .btn-secondary {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(71, 85, 105, 0.3);
+    color: #fff;
+    border: 2px solid rgba(71, 85, 105, 0.5);
 }
 
 .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(71, 85, 105, 0.4);
     transform: translateY(-1px);
 }
 
 .btn-success {
-    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-    color: white;
+    background: linear-gradient(135deg, #168770 0%, #36c089 100%);
+    color: #fff;
 }
 
 .btn-success:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(17, 153, 142, 0.4);
+    box-shadow: 0 8px 25px rgba(22, 135, 112, 0.4);
 }
 
 .btn-danger {
-    background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
-    color: white;
+    background: linear-gradient(135deg, #c10a4a 0%, #86223a 100%);
+    color: #fff;
 }
 
 .btn-danger:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(255, 65, 108, 0.4);
+    box-shadow: 0 8px 25px rgba(193, 10, 74, 0.3);
 }
 
 /* Main Content */
@@ -127,8 +127,8 @@ body {
 /* Sidebar Styles */
 .sidebar {
     width: 320px;
-    background: #f8fafc;
-    border-right: 1px solid #e2e8f0;
+    background: #22263c;
+    border-right: 1px solid #293356;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease;
@@ -140,13 +140,13 @@ body {
 
 .sidebar-header {
     padding: 25px;
-    border-bottom: 1px solid #e2e8f0;
-    background: white;
+    border-bottom: 1px solid #364173;
+    background: #171923;
 }
 
 .sidebar-header h3 {
     margin-bottom: 20px;
-    color: #2d3748;
+    color: #b9c3d5;
     font-size: 20px;
     font-weight: 600;
 }
@@ -160,25 +160,26 @@ body {
 .search-container i {
     position: absolute;
     left: 15px;
-    color: #a0aec0;
+    color: #7684a6;
     font-size: 16px;
 }
 
 .search-container input {
     width: 100%;
     padding: 12px 15px 12px 45px;
-    border: 2px solid #e2e8f0;
+    border: 2px solid #364173;
     border-radius: 10px;
     font-size: 14px;
     transition: all 0.3s ease;
-    background: #f7fafc;
+    background: #23293d;
+    color: #f1f1f1;
 }
 
 .search-container input:focus {
     outline: none;
-    border-color: #4facfe;
-    background: white;
-    box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+    border-color: #415188;
+    background: #171923;
+    box-shadow: 0 0 0 3px rgba(65, 81, 136, 0.2);
 }
 
 /* Notes List */
@@ -189,27 +190,27 @@ body {
 }
 
 .note-item {
-    background: white;
+    background: #1a202c;
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
     border: 2px solid transparent;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);
 }
 
 .note-item:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    border-color: #4facfe;
+    box-shadow: 0 8px 25px rgba(32, 41, 60, 0.14);
+    border-color: #415188;
 }
 
 .note-item.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #3b4a70 0%, #415188 100%);
+    color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 8px 25px rgba(65, 81, 136, 0.2);
 }
 
 .note-item h4 {
@@ -222,26 +223,32 @@ body {
 
 .note-preview {
     font-size: 14px;
-    color: #64748b;
+    color: #a5b4c9;
     line-height: 1.5;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
 .note-item.active .note-preview {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .note-date {
     font-size: 12px;
-    color: #94a3b8;
+    color: #7684a6;
     margin-top: 8px;
 }
 
 .note-item.active .note-date {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.no-results, .no-notes {
+    text-align: center;
+    padding: 40px 20px;
+    color: #a5b4c9;
+    font-style: italic;
 }
 
 /* Editor Area */
@@ -249,7 +256,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: #171923;
 }
 
 /* Welcome Screen */
@@ -261,8 +268,8 @@ body {
     height: 100%;
     text-align: center;
     padding: 40px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: white;
+    background: linear-gradient(135deg, #232b4d 0%, #364173 100%);
+    color: #e5e5e5;
 }
 
 .welcome-icon {
@@ -280,7 +287,7 @@ body {
 .welcome-screen p {
     font-size: 18px;
     margin-bottom: 30px;
-    opacity: 0.9;
+    opacity: 0.85;
     max-width: 400px;
     line-height: 1.6;
 }
@@ -298,9 +305,9 @@ body {
 
 /* Editor Toolbar */
 .editor-toolbar {
-    background: #f8fafc;
+    background: #22263c;
     padding: 20px 25px;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid #364173;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -312,18 +319,19 @@ body {
     flex: 1;
     min-width: 200px;
     padding: 12px 15px;
-    border: 2px solid #e2e8f0;
+    border: 2px solid #364173;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
-    background: white;
+    background: #23293d;
+    color: #e5e5e5;
     transition: all 0.3s ease;
 }
 
 .note-title-input:focus {
     outline: none;
-    border-color: #4facfe;
-    box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+    border-color: #415188;
+    box-shadow: 0 0 0 3px rgba(65, 81, 136, 0.1);
 }
 
 .toolbar-actions {
@@ -340,18 +348,19 @@ body {
 
 .font-control {
     padding: 8px 12px;
-    border: 2px solid #e2e8f0;
+    border: 2px solid #364173;
     border-radius: 8px;
     font-size: 14px;
-    background: white;
+    background: #23293d;
+    color: #e5e5e5;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .font-control:focus {
     outline: none;
-    border-color: #4facfe;
-    box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+    border-color: #415188;
+    box-shadow: 0 0 0 3px rgba(65, 81, 136, 0.1);
 }
 
 /* Editor Content */
@@ -370,24 +379,24 @@ body {
     font-family: inherit;
     line-height: 1.8;
     resize: none;
-    background: white;
-    color: #2d3748;
+    background: #171923;
+    color: #e0e5ef;
 }
 
 .note-textarea::placeholder {
-    color: #a0aec0;
+    color: #7684a6;
     font-style: italic;
 }
 
 /* Editor Status */
 .editor-status {
-    background: #f8fafc;
+    background: #22263c;
     padding: 15px 30px;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #364173;
     display: flex;
     gap: 25px;
     font-size: 13px;
-    color: #64748b;
+    color: #a5b4c9;
 }
 
 /* Modal Styles */
@@ -397,7 +406,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(25, 29, 41, 0.85);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,12 +419,13 @@ body {
 }
 
 .modal-content {
-    background: white;
+    background: #23293d;
     border-radius: 15px;
     padding: 30px;
     max-width: 450px;
     width: 90%;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+    color: #f1f1f1;
+    box-shadow: 0 25px 50px rgba(32, 41, 60, 0.4);
     transform: scale(0.9);
     animation: modalAppear 0.3s ease forwards;
 }
@@ -428,14 +438,14 @@ body {
 
 .modal-content h3 {
     margin-bottom: 15px;
-    color: #2d3748;
+    color: #e0e7ef;
     font-size: 20px;
     font-weight: 600;
 }
 
 .modal-content p {
     margin-bottom: 25px;
-    color: #64748b;
+    color: #a5b4c9;
     line-height: 1.6;
 }
 
@@ -457,56 +467,45 @@ body {
         margin: 5px;
         border-radius: 10px;
     }
-    
     .sidebar {
         width: 280px;
         position: absolute;
         z-index: 100;
         height: calc(100vh - 90px);
-        box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 5px 0 15px rgba(0, 0, 0, 0.18);
     }
-    
     .header {
         padding: 12px 20px;
     }
-    
     .logo h1 {
         font-size: 20px;
     }
-    
     .editor-toolbar {
         padding: 15px 20px;
         flex-direction: column;
         align-items: stretch;
     }
-    
     .toolbar-actions {
         justify-content: space-between;
         margin-top: 15px;
     }
-    
     .note-textarea {
         padding: 20px;
     }
-    
     .editor-status {
         padding: 12px 20px;
         flex-wrap: wrap;
         gap: 15px;
     }
-    
     .welcome-screen {
         padding: 30px 20px;
     }
-    
     .welcome-icon {
         font-size: 60px;
     }
-    
     .welcome-screen h2 {
         font-size: 24px;
     }
-    
     .welcome-screen p {
         font-size: 16px;
     }
@@ -517,16 +516,13 @@ body {
         padding: 25px 20px;
         margin: 20px;
     }
-    
     .modal-actions {
         flex-direction: column;
     }
-    
     .font-controls {
         flex-direction: column;
         width: 100%;
     }
-    
     .font-control {
         width: 100%;
     }
